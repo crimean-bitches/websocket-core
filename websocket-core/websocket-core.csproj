@@ -1,63 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard1.3</TargetFramework>
-    <RootNamespace>WebSocketCore</RootNamespace>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0</Version>
-    <Company></Company>
-    <Authors>Dmitrii Osipov</Authors>
-    <Description />
-    <PackageProjectUrl>https://github.com/blackboneworks/websocket-core</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/blackboneworks/websocket-core/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/blackboneworks/websocket-core</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <PackageTags>websocket</PackageTags>
-  </PropertyGroup>
-  <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
-    <RootNamespace>WebSocketCore</RootNamespace>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0</Version>
-    <Company></Company>
-    <Authors>Dmitrii Osipov</Authors>
-    <Description />
-    <PackageProjectUrl>https://github.com/blackboneworks/websocket-core</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/blackboneworks/websocket-core/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/blackboneworks/websocket-core</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <PackageTags>websocket</PackageTags>
-  </PropertyGroup>
-  <PropertyGroup>
-    <TargetFramework>netstandard1.5</TargetFramework>
-    <RootNamespace>WebSocketCore</RootNamespace>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0</Version>
-    <Company></Company>
-    <Authors>Dmitrii Osipov</Authors>
-    <Description />
-    <PackageProjectUrl>https://github.com/blackboneworks/websocket-core</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/blackboneworks/websocket-core/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/blackboneworks/websocket-core</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <PackageTags>websocket</PackageTags>
-  </PropertyGroup>
-  <PropertyGroup>
-    <TargetFramework>netstandard1.6</TargetFramework>
-    <RootNamespace>WebSocketCore</RootNamespace>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0</Version>
-    <Company></Company>
-    <Authors>Dmitrii Osipov</Authors>
-    <Description />
-    <PackageProjectUrl>https://github.com/blackboneworks/websocket-core</PackageProjectUrl>
-    <PackageLicenseUrl>https://raw.githubusercontent.com/blackboneworks/websocket-core/master/LICENSE</PackageLicenseUrl>
-    <RepositoryUrl>https://github.com/blackboneworks/websocket-core</RepositoryUrl>
-    <RepositoryType>Git</RepositoryType>
-    <PackageTags>websocket</PackageTags>
-  </PropertyGroup>
-  <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard1.3;netstandard1.4;netstandard1.5;netstandard1.6;netstandard2.0</TargetFrameworks>
     <RootNamespace>WebSocketCore</RootNamespace>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Version>0</Version>
@@ -75,15 +19,6 @@
     <Version>0.1.0-beta-$(VersionSuffix)</Version>
     <AssemblyVersion>0.1.0.$(VersionSuffix)</AssemblyVersion>
     <FileVersion>0.1.0.$(VersionSuffix)</FileVersion>
-  </PropertyGroup>
-  
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard1.3\websocket-core.xml</DocumentationFile>
-    <DefineConstants>TRACE;DEBUG</DefineConstants>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard1.3\websocket-core.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
