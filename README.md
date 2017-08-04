@@ -8,6 +8,6 @@ websocket library to use with .net core and .net standard
 Contributing
 ============
 
-1. Fork the _develop_ branch of https://github.com/opentk/opentk
+1. Fork the _develop_ branch of https://github.com/blackboneworks/websocket-core
 2. Commit your changes in small, incremental steps with clear descriptions
 3. When ready, issue a Pull Request (PR) against the _develop_ branch of https://github.com/blackboneworks/websocket-core
